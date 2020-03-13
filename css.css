@@ -4,11 +4,6 @@ body{
 	font-family: cursive;
 	font-family: Georgia, "Times New Roman", Times, serif;
 }
-iframe{
-	position:absolute;
-	width:98%;
-	height:250px;
-}
 
 .navbar{
 	position: fixed;
