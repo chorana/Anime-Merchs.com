@@ -8,6 +8,61 @@ iframe{
 	width:300px;
 	height:250px;
 }
+.footer-social-icons{
+	width:100%;
+	height:auto;
+	margin:auto;
+}
+.footer-social-icons ul{
+	padding:0px;
+	margin:0px;
+	text-align:center;
+	float: right;
+}
+.footer-social-icons ul li{
+	display: inline-block;
+	padding: 5px;
+	margin: 0px 5px;
+	border-radius: 100%;
+	background: #ea5a00;
+	width: 50px;
+	text-align: center;
+	height: 50PX;
+	-webkit-transition: 0.3s ease-out;
+	transition: 0.3s ease-out;
+}
+.facebook-fa:hover{
+	background: #385898;
+	-webkit-box-shadow: 0 0 0 0 #36516b inset;
+	box-shadow: 0 0 0 0 #36516b inset;
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transform: translate(0, 0);
+}
+.youtube-fa:hover{
+	background: #f00;
+}
+.instagram-fa:hover{
+	background: #a834b2;
+}
+.twitter-fa:hover{
+	background: #00B2D8;
+}
+.footer-social-icons ul li a i{
+	line-height: 50px;
+}
+.footer-social-icons ul li a {
+	color: #2a2929;
+	font-size: 34px;
+	background: #ea5a0000;
+	padding: 10PX;
+	border-top:none;
+}
+
 .navbar{
 	position: fixed;
 	display:flex;
