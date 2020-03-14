@@ -4,11 +4,6 @@ body{
 	font-family: cursive;
 	font-family: Georgia, "Times New Roman", Times, serif;
 }
-#content h2 {
-    float: left;
-    margin: 0;
-}
-
 .navbar{
 	position: fixed;
 	display:flex;
@@ -54,7 +49,7 @@ a:hover {
 	height: 100%;
 	position: fixed;
 	top: 55px;
-	background-image: url(./img/1.jpg);
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(2.jpg);
 	-webkit-background-size: contain;
 	background-size:cover;
 	background-position: center center;
@@ -107,7 +102,7 @@ address, article, aside, figcaption, figure, footer, header, nav, section{displa
 .row1, .row1 a{color:#878787; background-color:#FFFFFF}
 .row2, .row2 a{color:#333333; background-color:#E2E2E2}
 .row3{color:#878787; background:url("../images/shout_bg.gif") top left repeat-x #FFFFFF}
-.row4{color: #000000;position: relative;top: 550px;}
+.row4{color: #000000;position: relative;top: 70%;}
 .row4 a{color:#00B2D8; background-color:#FFFFFF}
 .row5, .row5 a{color:#878787;margin-top: 20px;background-color: #2a2929;border-top: 4px solid;border-color: rgba(234, 90, 0, 1);position: relative;}
 h1, h2, h3, h4, h5, h6{margin:0 0 8px 0;font-family: cursive;padding:0;font-size:1.4em;font-weight:normal;line-height:normal;}
@@ -115,8 +110,8 @@ address{font-style:normal}
 abbr{font-style:normal; text-decoration:none; border:none}
 nav ul{margin:0; padding:0; list-style:none}
 blockquote, q{display:block; padding:8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal}
-blockquote::before, q::before{content:'ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ '; font-size:26px}
-blockquote::after, q::after{content:' ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾'; font-size:26px; line-height:0}
+blockquote::before, q::before{content:'ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“ '; font-size:26px}
+blockquote::after, q::after{content:' ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾'; font-size:26px; line-height:0}
 
 .divascookies{display:none; position:fixed; top:0; right:0; bottom:0; left:0; width:100%; background-color:rgba(0,0,0,.75); z-index:999}
 .divascookies *{margin:0; padding:0; text-align:center; line-height:1; font-size:16px; color:#FFFFFF}
@@ -305,7 +300,7 @@ legend{display:none}
 #header #topbanner #bsap_1306116 a.adhere:hover{color:#333; background:#ddd; border:1px solid #999}
 
 #copyright{padding:30px 0}
-#copyright p{margin:0; padding:0}
+#copyright p{margin:0; padding:0 ;margin-left: 20px;}
 
 @media screen and (max-width:320px){
 #header #hgroup h1{font-size:3.8em}
@@ -643,11 +638,8 @@ ul, ol {
         background: #727272;
     }
 
-
-
-
 #bsa iframe{
-	width:98%;
+	width:300px;
 	height:250px;
 }
 .ad2 iframe{
