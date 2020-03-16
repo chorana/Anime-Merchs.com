@@ -351,7 +351,7 @@ table#css1 th:nth-child(n+2), table#css1 td:nth-child(n+2){display:none}
 #shout div#bsap_2365 #ad_2365_backfill1_frame{max-width:100%; height:auto; max-height:90px;}
 }
 
-@media screen and (min-width:480px) and (max-width:599px){
+@media screen and (min-width:259px) and (max-width:599px){
 #topbar, #header, #shout, #container, #copyright{max-width:95%;margin:0 auto;background-color: #fff;border: 3px solid;border-color: #000;}
 #topbar{padding:15px 0 0 0; font-size:1em; text-align:center}
 #topbar nav{display:block; float:none}
@@ -1077,7 +1077,7 @@ table#css1 th:nth-child(n+2), table#css1 td:nth-child(n+2){display:none}
 #shout div#bsap_2365 #ad_2365_backfill1_frame{max-width:100%; height:auto; max-height:90px;}
 }
 
-@media screen and (min-width:480px) and (max-width:599px){
+@media screen and (min-width:259px) and (max-width:599px){
 #topbar, #header, #shout, #container, #copyright{max-width:95%;margin:0 auto;background-color: #fff;border: 3px solid;border-color: #000;}
 #topbar{padding:15px 0 0 0; font-size:1em; text-align:center}
 #topbar nav{display:block; float:none}
@@ -1802,7 +1802,7 @@ table#css1 th:nth-child(n+2), table#css1 td:nth-child(n+2){display:none}
 #shout div#bsap_2365 #ad_2365_backfill1_frame{max-width:100%; height:auto; max-height:90px;}
 }
 
-@media screen and (min-width:480px) and (max-width:599px){
+@media screen and (min-width:259px) and (max-width:599px){
 #topbar, #header, #shout, #container, #copyright{max-width:95%;margin:0 auto;background-color: #fff;border: 3px solid;border-color: #000;}
 #topbar{padding:15px 0 0 0; font-size:1em; text-align:center}
 #topbar nav{display:block; float:none}
