@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Allow: /sitemap.htm
-Sitemap: http://anime-merchs.com/sitemap.xml
+Sitemap: https://anime-merchs.com/sitemap.xml
